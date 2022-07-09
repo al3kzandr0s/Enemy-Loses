@@ -11,6 +11,8 @@
 		A73696472879C8FF00E3CCAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73696462879C8FF00E3CCAE /* ContentView.swift */; };
 		A73696492879C90100E3CCAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73696482879C90100E3CCAE /* Assets.xcassets */; };
 		A736964C2879C90100E3CCAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A736964B2879C90100E3CCAE /* Preview Assets.xcassets */; };
+		A73696552879C93900E3CCAE /* File1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73696542879C93900E3CCAE /* File1.swift */; };
+		A73696572879C95700E3CCAE /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73696562879C95700E3CCAE /* File2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A73696462879C8FF00E3CCAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A73696482879C90100E3CCAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A736964B2879C90100E3CCAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A73696542879C93900E3CCAE /* File1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File1.swift; sourceTree = "<group>"; };
+		A73696562879C95700E3CCAE /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		A73696432879C8FF00E3CCAE /* Enemy Loses */ = {
 			isa = PBXGroup;
 			children = (
+				A73696532879C91700E3CCAE /* Model */,
+				A73696522879C90F00E3CCAE /* View */,
 				A73696442879C8FF00E3CCAE /* Enemy_LosesApp.swift */,
 				A73696462879C8FF00E3CCAE /* ContentView.swift */,
 				A73696482879C90100E3CCAE /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				A736964B2879C90100E3CCAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A73696522879C90F00E3CCAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A73696562879C95700E3CCAE /* File2.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A73696532879C91700E3CCAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A73696542879C93900E3CCAE /* File1.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73696572879C95700E3CCAE /* File2.swift in Sources */,
 				A73696472879C8FF00E3CCAE /* ContentView.swift in Sources */,
+				A73696552879C93900E3CCAE /* File1.swift in Sources */,
 				A73696452879C8FF00E3CCAE /* Enemy_LosesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
