@@ -1,2 +1,2 @@
 # Enemy-Loses
-App where we can see enemy loses
+App where we can see russian military loses
